@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.321 s <<< FAILURE! - in TestSuite
+training.TestNG01.test1  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: Assetion failed expected [500] but found [200]
+	at training.TestNG01.test1(TestNG01.java:19)
+
+com.training.TestCases.TestCase01.tittlevalidation  Time elapsed: 2.01 s  <<< FAILURE!
+java.lang.AssertionError: expected [Google] but found [Rediff.com: News | Rediffmail | Stock Quotes | Shopping]
+	at com.training.TestCases.TestCase01.tittlevalidation(TestCase01.java:36)
+
